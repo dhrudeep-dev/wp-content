@@ -25,14 +25,19 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+	
 
 		<?php
 		wp_body_open();
 		?>
 
+
+
 		<header id="site-header" class="header-footer-group" role="banner">
+		
 
 			<div class="header-inner section-inner">
+			
 
 				<div class="header-titles-wrapper">
 
