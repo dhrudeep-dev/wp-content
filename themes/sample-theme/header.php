@@ -24,21 +24,16 @@
 <div id="page" class="site">
 
 	<header id="masthead" class="site-header">
-	<div class="top-bar" style="border-radius: 5px;background-color: black;" >
-            <div class="top-bar-left" style="background-color: black;">
-                <ul class="menu" style="background-color: black;color:white;">
-                    <li class="menu-text">Portfolio</li>
-                    
-                </ul>
-            </div>
-            <div class="top-bar-right" style="background-color: black;">
-                <ul class="menu" style="background-color: black;">
-                    <li><a href="#">about</a></li>
-                    <li><a href="#AllProjDiv">projects</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
-            </div>
-        </div>
+	<div class="bg-img">
+		<div class="container">
+			<div class="topnav">
+			<a href="#home">Home</a>
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
+			</div>
+		</div>
+	</div>
 		<!-- /*top header */ -->
 		<img src="<?php echo get_template_directory_uri(); ?>./assets/images/header.png" alt="header" width="100%" height="auto" />
 		<!-- /*logo */ -->
