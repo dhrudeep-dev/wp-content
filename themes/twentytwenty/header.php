@@ -34,19 +34,12 @@
 
 
 		<header id="site-header" class="header-footer-group" role="banner">
-		<!-- /*top header */ -->
-		<img src="<?php echo get_template_directory_uri(); ?>./assets/images/header.png" alt="header" width="100%" height="auto" />
+	
 		
 
 			<div class="header-inner section-inner">
 			
-			<!-- /*logo */ -->
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-			<img src="<?php echo get_template_directory_uri(); ?>./assets/images/logo.png" alt="Logo" width="150px" height="auto" />
-			</a>
 			
-
-			<img src="<?php echo get_template_directory_uri(); ?>./assets/images/homeGirl.png" alt="girl" width="300px" height="auto" />
 
 
 

@@ -24,6 +24,15 @@
 <div id="page" class="site">
 
 	<header id="masthead" class="site-header">
+		<!-- /*top header */ -->
+		<img src="<?php echo get_template_directory_uri(); ?>./assets/images/header.png" alt="header" width="100%" height="auto" />
+		<!-- /*logo */ -->
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+			<img src="<?php echo get_template_directory_uri(); ?>./assets/images/logo.png" alt="Logo" width="150px" height="auto" />
+			</a>
+			
+          <!--home girl-->
+			<img src="<?php echo get_template_directory_uri(); ?>./assets/images/homeGirl.png" alt="girl" width="300px" height="auto" />
 		Hi Header
 		<div class="site-branding">
 			<?php
