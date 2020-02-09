@@ -1,6 +1,9 @@
 body{
   height: 100vh;
 }
+nav {
+  width: 100%;
+}
 
 .bg-img {
     /* The image used */
@@ -45,28 +48,26 @@ body{
   }
 
   .menu{
-
     display: flex;
+    text-align: center;
     justify-content: center;
+    width: 100%;
   }
   .menu ul{
     list-style-type:none ;
-    color: white;
-    
-    
-    
-    margin-top: 100px;
-    
+    margin-top: 120px;
   }
 
   .menu li{
-    font: 18px gadugi;
-    
+    font: 22px gadugi;
     float: left;
-    
+    margin-right: 50px;
     
   }
 
+  .menu a{
+    color: white;
+  }
   #site-navigation li{
     
   }
