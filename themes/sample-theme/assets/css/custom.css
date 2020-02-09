@@ -1,6 +1,18 @@
+@font-face{
+  font-family: gadugi;
+  src: url(fonts/gadugi.ttf);
+}
+
+@font-face{
+  font-family: bubblegum;
+  src: url(fonts/Bubblegum.ttf);
+}
+
 body{
   height: 100vh;
 }
+
+
 nav {
   width: 100%;
 }
@@ -68,6 +80,21 @@ nav {
   .menu a{
     color: white;
   }
+
+  .menu a:hover{
+    color: #ffb300;
+    animation: bounce 1s infinite;
+  }
+
+  @keyframes bounce {
+    0%,  
+    100% {
+       -webkit-transform: translateY(0);
+    } 
+    50% {
+        -webkit-transform: translateY(-7px);
+    }
+}
   #site-navigation li{
     
   }
