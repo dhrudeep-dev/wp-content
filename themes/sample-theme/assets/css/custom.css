@@ -1,4 +1,5 @@
 body{
+  height: 100vh;
 }
 
 .bg-img {
@@ -30,13 +31,52 @@ body{
     top: 5%;
     width: auto;
   }
+
+  #site-navigation{
+    position: fixed;
+    top: 0;
+    
+
+  }
+
+  #masthead{
+    position: fixed;
+    width:100vw;
+  }
+
+  .menu{
+
+    display: flex;
+    justify-content: center;
+  }
+  .menu ul{
+    list-style-type:none ;
+    color: white;
+    
+    
+    
+    margin-top: 100px;
+    
+  }
+
+  .menu li{
+    font: 18px gadugi;
+    
+    float: left;
+    
+    
+  }
+
+  #site-navigation li{
+    
+  }
   
-  /* The navbar */
+  /* The navbar
   .topnav {
     overflow: hidden;
   }
   
-  /* Navbar links */
+   Navbar links 
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -49,4 +89,4 @@ body{
   .topnav a:hover {
     background-color: #ddd;
     color: black;
-  }
+  } */
