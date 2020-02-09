@@ -5,8 +5,8 @@ body{
     /* The image used */
     background-image: url("header.png");
     background-size: 100% 80% !important;
-    margin-top: -31px !important;
-    min-height: 300px;
+    margin-top: -36px !important;
+    min-height: 350px;
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -35,7 +35,7 @@ body{
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 30% 16px;
     text-decoration: none;
     font-size: 17px;
   }
