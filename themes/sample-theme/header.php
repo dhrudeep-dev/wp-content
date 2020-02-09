@@ -25,14 +25,7 @@
 
     <header id="masthead" class="site-header">
     <div class="bg-img">
-        <div class="container">
-            <div class="topnav">
-            <a href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-            </div>
-        </div>
+       
     </div>
         <!-- /*logo */ -->
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
