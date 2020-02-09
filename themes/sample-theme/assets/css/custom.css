@@ -12,14 +12,13 @@ body{
   height: 100vh;
 }
 
-
 nav {
   width: 100%;
 }
 
 .bg-img {
     /* The image used */
-    background-image: url("header.png");
+    background-image: url("./images/header.png");
     background-size: 100% 80% !important;
     margin-top: -36px !important;
     min-height: 350px;
@@ -96,9 +95,21 @@ nav {
         -webkit-transform: translateY(-7px);
     }
 }
-  #site-navigation li{
+
+#colophon{
+    background-image: url("./images/footer3.png");
+    background-size: 100% 80% !important;
+    bottom: 0% !important;
+    min-height: 410px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
-  }
+    /* Needed to position the navbar */
+    position: relative;
+}
   
   /* The navbar
   .topnav {
