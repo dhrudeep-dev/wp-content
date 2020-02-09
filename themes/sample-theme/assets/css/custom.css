@@ -50,3 +50,7 @@ body{
     background-color: #ddd;
     color: black;
   }
+
+  #colophon{
+    background-image: url("header.png");
+  }
