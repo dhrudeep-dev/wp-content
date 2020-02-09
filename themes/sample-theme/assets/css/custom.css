@@ -16,6 +16,12 @@ body{
     /* Needed to position the navbar */
     position: relative;
   }
+
+  #logo{
+    position: absolute;
+    top:100px;
+    left: 50px;
+  }
   
   /* Position the navbar container inside the image */
   .container {
