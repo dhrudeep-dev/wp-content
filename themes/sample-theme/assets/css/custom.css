@@ -10,6 +10,7 @@
 
 body{
   height: 100vh;
+  width: 100%;
 }
 
 
@@ -46,7 +47,6 @@ nav {
     top: 5%;
     width: auto;
   }
-
   #site-navigation{
     position: fixed;
     top: 0;
@@ -72,7 +72,7 @@ nav {
   }
 
   .menu li{
-    font: 22px gadugi;
+    font: 22px bubblegum;
     float: left;
     margin-right: 50px;
     
@@ -96,10 +96,27 @@ nav {
         -webkit-transform: translateY(-7px);
     }
 }
-  #site-navigation li{
-    
-  }
+ .entry-content{
+   background-color: #a05f73;
+   height: 100vh;
+ }
   
+ figure .wp-image-23{   
+  position: relative;
+   left: 270%;
+   width: 350px !important ;
+   height: auto !important;
+   top: 150px;
+ }
+
+ .wp-block-quote p{
+   color: #332a2f;
+   font: 30px bubblegum;
+   z-index: 20;
+   position: relative;
+   left: 320px;
+   top: -100px;
+ }
   /* The navbar
   .topnav {
     overflow: hidden;
