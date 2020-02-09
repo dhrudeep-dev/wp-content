@@ -57,6 +57,7 @@ nav {
   #masthead{
     position: fixed;
     width:100vw;
+    z-index: 100;
   }
 
   .menu{
@@ -83,7 +84,7 @@ nav {
 
   .menu a:hover{
     color: #ffb300;
-    animation: bounce 1s infinite;
+    animation: bounce 0.5s infinite;
   }
 
   @keyframes bounce {
