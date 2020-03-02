@@ -259,10 +259,14 @@ border-radius: 20px;
 } 
 
 body{
-	background-color: #9fd3ae;
+	background-color: #A05F73;
 }
 span{
   width:10%;
+}
+
+#content{
+  padding-top: 16% !important;
 }
 
 .wp-block-media-text__media{
@@ -324,3 +328,23 @@ span{
     background-color: #ddd;
     color: black;
   } */
+
+  /* woocommerce styling */
+
+  .products{
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+
+  .attachment-woocommerce_thumbnail{
+    width: 90% !important;
+    border-radius: 10px;
+  }
+
+  .woocommerce-loop-product__title{
+    font:30px bubblegum !important;
+    color: #272626;
+  }
+  .amount{
+    font-size: 22px !important;
+  }
