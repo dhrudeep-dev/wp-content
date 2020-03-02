@@ -1,0 +1,19 @@
+2020-02-12T00:07:54+00:00 CRITICAL Uncaught Error: Call to undefined function dd_filter() in /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/themes/sample-theme/inc/woocommerce.php:6
+Stack trace:
+#0 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/themes/sample-theme/functions.php(174): require()
+#1 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-settings.php(497): include('/Users/dhrudeep...')
+#2 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-config.php(77): require_once('/Users/dhrudeep...')
+#3 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-load.php(37): require_once('/Users/dhrudeep...')
+#4 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-blog-header.php(13): require_once('/Users/dhrudeep...')
+#5 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/index.php(17): require('/Users/dhrudeep...')
+#6 {main}
+  thrown in /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/themes/sample-theme/inc/woocommerce.php on line 6
+
+2020-02-12T01:50:14+00:00 CRITICAL syntax error, unexpected end of file in /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/themes/sample-theme/inc/woocommerce.php on line 24
+
+2020-02-12T01:50:15+00:00 CRITICAL syntax error, unexpected end of file in /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/themes/sample-theme/inc/woocommerce.php on line 24
+
+2020-02-12T01:50:15+00:00 CRITICAL syntax error, unexpected end of file in /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/themes/sample-theme/inc/woocommerce.php on line 24
+
+2020-02-12T01:50:15+00:00 CRITICAL syntax error, unexpected end of file in /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/themes/sample-theme/inc/woocommerce.php on line 24
+

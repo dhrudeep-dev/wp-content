@@ -29,7 +29,7 @@
     </div>
         <!-- /*logo */ -->
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-            <img src="<?php echo get_template_directory_uri(); ?>./assets/images/logo.png" alt="Logo" width="150px" height="auto" />
+            <img id="logo" src="<?php echo get_template_directory_uri(); ?>./assets/images/logo.png" alt="Logo" width="150px" height="auto" />
         </a>
             
   
@@ -37,7 +37,7 @@
         <nav id="site-navigation" class="main-navigation">
             <?php
             wp_nav_menu( array(
-                'theme_location' => 'menu-1',
+                'theme_location' => 'menu',
                 'menu_id'        => 'primary-menu',
             ) );
             ?>
