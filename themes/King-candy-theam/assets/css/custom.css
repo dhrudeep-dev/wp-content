@@ -345,9 +345,9 @@ span{
     font:30px bubblegum !important;
     color: white;
   }
-  .amount{
+  .price{
     font-size: 22px !important;
-    color: white;
+    color: white !important;
   }
 
 
@@ -421,4 +421,20 @@ label{
 
 .woocommerce-Price-amount amount{
   color: black !important;
+}
+
+#payment{
+  background: black !important;
+}
+
+#place_order{
+  background: orange;
+}
+
+/* cart changes */
+
+.woocommerce-cart-form,.cart-collaterals{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
 }
