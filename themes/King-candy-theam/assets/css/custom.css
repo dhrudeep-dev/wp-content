@@ -330,21 +330,95 @@ span{
   } */
 
   /* woocommerce styling */
-
+ /* cart style */
   .products{
     padding-right: 5% !important;
     padding-left: 5% !important;
   }
 
   .attachment-woocommerce_thumbnail{
-    width: 90% !important;
+    width: 80% !important;
     border-radius: 10px;
   }
 
   .woocommerce-loop-product__title{
     font:30px bubblegum !important;
-    color: #272626;
+    color: white;
   }
   .amount{
     font-size: 22px !important;
+    color: white;
   }
+
+
+  .add_to_cart_button{
+    background-color: orange !important;
+  }
+  
+
+  /* coupon styling */
+
+  .woocommerce-form-coupon-toggle{
+    display: none;
+  }
+
+  .entry-title{
+    display: none;
+  }
+
+  #customer_details{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+  }
+
+  #order_review{
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+  }
+
+  #order_review_heading{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .wpcf7-form textarea, label{
+    height: 35px !important;
+  }
+
+  .input-text{
+    border-radius: 10px;
+  }
+
+  .select2-selection--single{
+    width: 100%;
+  }
+
+  .checkout{
+    color: white;
+  }
+
+label{
+  color: white !important;
+}
+
+.shop_table th{
+  background-color: orange !important;
+  color: black !important;
+}
+
+.shop_table tr{
+  background-color: orange !important;
+  color: black !important;
+
+}
+
+.cart_item{
+  background-color: orange !important;
+  color: black !important;
+
+}
+
+.woocommerce-Price-amount amount{
+  color: black !important;
+}

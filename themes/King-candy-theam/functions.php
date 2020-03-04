@@ -128,6 +128,11 @@ function sample_theme_scripts() {
 		get_stylesheet_directory_uri() . '/assets/css/custom.css',
 		array()
 	);
+	wp_enqueue_style(
+		'custom-style',
+		get_stylesheet_directory_uri() . '/assets/css/customWoocommerce.css',
+		array()
+	);
 	
 	wp_enqueue_script(
 		'sample-theme-what-input',
