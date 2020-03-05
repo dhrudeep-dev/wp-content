@@ -241,15 +241,27 @@ border-radius: 20px;
 }
 
 /**ABOUT us page*/
-
-
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  min-height: 500px! important;
+  margin-bottom: 10px;
+}
+ul.products li.product a.button {
+  position: absolute! important;
+  bottom: 25px;
+}
 #post-13 h2{
-  padding-top: 300px;
   font: 30px bubblegum;
   text-align: center;
   color: #332a2f;
+  min-height: 100px !important;
+
 }
 
+.woocommerce-MyAccount-navigation,.woocommerce-MyAccount-content{
+  position: relative;
+  top: 40px;
+
+}
 #post-13 p{
   font-family: 'Bubblegum Sans' !important;
   font-size: 30px !important;
@@ -381,6 +393,10 @@ span{
 
   .entry-title{
     display: none;
+  }
+
+  .added_to_cart{
+    display: none !important  ;
   }
 
   #customer_details{
@@ -579,6 +595,9 @@ label{
   color: black !important;
 
 }
+.woocommerce-order{
+  padding-top: 5%;
+}
 .woocommerce-order p{
   color: white;
 }
@@ -657,4 +676,10 @@ label{
 
 .woocommerce-form-login__submit{
   background-color: orange !important;
+}
+
+/* description section */
+#comments,.nav-previous{
+  padding-right: 10%;
+  padding-left: 10%;
 }
