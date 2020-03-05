@@ -432,7 +432,20 @@ label{
 }
 
 /* cart changes */
+.status-publish {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 6%;
+}
 
+.cart-empty{
+  border-radius: 10px;
+}
+
+.wc-backward{
+  background-color: orange !important;
+  color: white !important;
+}
 .woocommerce-cart-form,.cart-collaterals{
   padding-left: 10%;
   padding-right: 10%;
@@ -477,11 +490,28 @@ label{
 }
 
 .shop_table tr,th{
-  background-color: white !important;
+  background-color: #9FD3AE !important;
   color: black !important;
 }
 
 .shop_table th{
-  background-color: white !important;
+  background-color: #9FD3AE !important;
   color: black !important;
+}
+
+.shop_table button{
+  background-color: #9FD3AE !important;
+}
+
+.coupon{
+  display: none;
+}
+
+.checkout-button{
+  background-color: #ffb300 !important;
+}
+
+.actions .button{
+  background-color: #ffb300 !important;
+
 }
