@@ -636,6 +636,7 @@ label{
   color: black;
 }
 
+/* woocommerce-MyAccount-content styling */
 .woocommerce-MyAccount-content .woocommerce-button{
   background-color: orange !important;
 }
