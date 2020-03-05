@@ -701,6 +701,7 @@ label{
   background-color: orange !important;
 }
 
+/* desc */
 .related .woocommerce ul.products li.product{
   min-height: 300px !important;
 }
