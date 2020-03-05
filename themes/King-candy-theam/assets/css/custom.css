@@ -682,4 +682,25 @@ label{
 #comments,.nav-previous{
   padding-right: 10%;
   padding-left: 10%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+
+}
+
+#tab-description{
+  height: 200px !important;
+  padding: 10px;
+  background-color: #9FD3AE;
+}
+
+#tab-additional_information{
+  height: 200px !important;
+
+}
+.single_add_to_cart_button{
+  background-color: orange !important;
+}
+
+.related .woocommerce ul.products li.product{
+  min-height: 300px !important;
 }
