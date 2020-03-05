@@ -22,15 +22,8 @@ defined( 'ABSPATH' ) || exit;
  *
  * @since 2.6.0
  */
-?>
-   <div class="grid-container min-height-100">
-            <div class="grid-x min-height-100">
-                <div class="cell small-3 medium-3 large-12">
-      
-					 <?php do_action( 'woocommerce_account_navigation' ); ?>
-</div>
-	</div>
-</div>
+do_action( 'woocommerce_account_navigation' ); ?>
+
 <div class="woocommerce-MyAccount-content">
 	<?php
 		/**

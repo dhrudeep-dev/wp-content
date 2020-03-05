@@ -50,8 +50,6 @@ nav {
   #site-navigation{
     position: fixed;
     top: 0;
-    
-
   }
 
   #masthead{
@@ -572,4 +570,31 @@ label{
 }
 .woocommerce-order p{
   color: white;
+}
+
+/* account page */ 
+.woocommerce-MyAccount-content{
+  background-color: #9FD3AE;
+  padding: 20px;
+}
+
+.woocommerce-MyAccount-navigation{
+  background-color: #ffb300 !important;
+  padding: 10px;
+}
+
+.woocommerce-MyAccount-navigation ul{
+  list-style-type: none;
+  font-size: 20px;
+  color: black;
+}
+
+.woocommerce-MyAccount-navigation ul a{
+  list-style-type: none;
+  font-size: 20px;
+  color: black;
+}
+
+.woocommerce table.my_account_orders .button{
+  background-color: orange;
 }
