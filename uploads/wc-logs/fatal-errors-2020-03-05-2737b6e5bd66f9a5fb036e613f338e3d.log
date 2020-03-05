@@ -1,0 +1,24 @@
+2020-03-05T17:33:11+00:00 CRITICAL Uncaught Error: Call to undefined function phpdo_action() in /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/templates/myaccount/my-account.php:28
+Stack trace:
+#0 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(123): wc_get_template('myaccount/my-ac...', Array)
+#2 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#3 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#4 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcod in /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/templates/myaccount/my-account.php on line 28
+
+2020-03-05T17:33:36+00:00 CRITICAL Uncaught Error: Call to undefined function phpdo_action() in /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/templates/myaccount/my-account.php:28
+Stack trace:
+#0 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(123): wc_get_template('myaccount/my-ac...', Array)
+#2 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#3 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#4 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcod in /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/templates/myaccount/my-account.php on line 28
+
+2020-03-05T17:33:40+00:00 CRITICAL Uncaught Error: Call to undefined function phpdo_action() in /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/templates/myaccount/my-account.php:28
+Stack trace:
+#0 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(123): wc_get_template('myaccount/my-ac...', Array)
+#2 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#3 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#4 /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcod in /Users/dhrudeep/Desktop/sem_4/cms/King_Candy/app/public/wp-content/plugins/woocommerce/templates/myaccount/my-account.php on line 28
+
