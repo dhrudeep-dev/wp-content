@@ -438,3 +438,50 @@ label{
   padding-right: 10%;
   padding-top: 5%;
 }
+
+
+/* ws-form custom styling */
+.wsf-form {
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.wsf-form label{
+  font-size: 20px;
+}
+
+.wsf-form input{
+}
+
+.wsf-form .cell{
+  padding-bottom: 5%;
+}
+
+.cell input{
+  border-radius: 10px;
+  background-color: #9FD3AE;
+}
+
+#wsf-1-field-wrapper-7{
+  padding-top: 7%;
+}
+
+#wsf-1-field-7{
+  border-radius: 10px;
+  width: 15%;
+}
+
+.help-text{
+  display: none;
+}
+
+.shop_table tr,th{
+  background-color: white !important;
+  color: black !important;
+}
+
+.shop_table th{
+  background-color: white !important;
+  color: black !important;
+}
