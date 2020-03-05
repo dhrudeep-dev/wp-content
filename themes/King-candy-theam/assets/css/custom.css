@@ -664,6 +664,7 @@ label{
   font-size: 18px;
 }
 
+/* changing width of input */
 .password-input input{
   width: 325px !important;
 }
