@@ -576,11 +576,22 @@ label{
 .woocommerce-MyAccount-content{
   background-color: #9FD3AE;
   padding: 20px;
+  border-radius: 10px;
 }
 
 .woocommerce-MyAccount-navigation{
   background-color: #ffb300 !important;
   padding: 10px;
+  border-radius: 10px;
+
+}
+
+.woocommerce-Input--password {
+  width: 300px !important;
+}
+
+.woocommerce form .show-password-input, .woocommerce-page form .show-password-input{
+  right: -12.3em !important;
 }
 
 .woocommerce-MyAccount-navigation ul{
@@ -601,4 +612,13 @@ label{
 
 .woocommerce-Message .button{
   background-color: orange !important;
+}
+
+.edit-account .button{
+  background-color: orange !important;
+}
+
+.edit-account label{
+  color: black !important;
+  font-size: 15px;
 }
