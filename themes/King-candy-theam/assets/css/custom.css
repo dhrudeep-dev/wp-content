@@ -595,6 +595,6 @@ label{
   color: black;
 }
 
-.woocommerce table.my_account_orders .button{
+.woocommerce-MyAccount-content .button{
   background-color: orange;
 }
