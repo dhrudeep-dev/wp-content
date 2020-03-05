@@ -14,7 +14,7 @@
 
 get_header();
 ?>
-
+<link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap" rel="stylesheet">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 

@@ -11,6 +11,7 @@
 body{
   height: 100vh;
   width: 100%;
+  
 }
 
 nav {
@@ -331,6 +332,10 @@ span{
 
   /* woocommerce styling */
  /* cart style */
+  .cart_totals h2{
+    color: white;
+    font-family: 'Bubblegum Sans';
+  }
   .products{
     padding-right: 5% !important;
     padding-left: 5% !important;
@@ -342,9 +347,12 @@ span{
   }
 
   .woocommerce-loop-product__title{
-    font:30px bubblegum !important;
+    font-size :30px !important;
     color: white;
+    font-family: 'Bubblegum Sans' !important;
+
   }
+
   .price{
     font-size: 22px !important;
     color: white !important;
@@ -380,6 +388,7 @@ span{
   #order_review_heading{
     padding-left: 10%;
     padding-right: 10%;
+    font-family: 'Bubblegum Sans';
   }
 
   .wpcf7-form textarea, label{
@@ -483,6 +492,7 @@ label{
 #wsf-1-field-7{
   border-radius: 10px;
   width: 15%;
+  background-color: orange;
 }
 
 .help-text{
@@ -510,8 +520,56 @@ label{
 .checkout-button{
   background-color: #ffb300 !important;
 }
+.woocommerce-billing-fields h3{
+  font-family: 'Bubblegum Sans';
+
+}
+.woocommerce-additional-fields h3{
+  font-family: 'Bubblegum Sans';
+
+}
 
 .actions .button{
   background-color: #ffb300 !important;
 
+}
+
+/* checkout page styling */
+.order_details{
+  border: 1px solid grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: black !important;
+  background-color: #9FD3AE;
+}
+
+.woocommerce-thankyou-order-received{
+  color: white;
+  font-size: 18px;
+  font-family: 'Bubblegum Sans';
+}
+
+.woocommerce-order-details__title{
+  color: white;
+  font-family: 'Bubblegum Sans';
+}
+
+.woocommerce-column__title{
+  color: white;
+  font-family: 'Bubblegum Sans';
+}
+
+.woocommerce-customer-details address{
+  background-color: #9FD3AE;
+  font-size: 18px;
+  color: black !important;
+}
+
+.woocommerce-customer-details p{
+  color: black !important;
+
+}
+.woocommerce-order p{
+  color: white;
 }
