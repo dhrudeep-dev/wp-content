@@ -1,0 +1,327 @@
+@font-face{
+  font-family: gadugi;
+  src: url(fonts/gadugi.ttf);
+}
+
+@font-face{
+  font-family: bubblegum;
+  src: url(fonts/Bubblegum.ttf);
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("./images/header.png");
+    background-size: 100% 80% !important;
+    margin-top: -36px !important;
+    min-height: 250px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }
+
+  #logo{
+    position: absolute;
+    top:30px;
+    left: 50px;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: auto;
+  }
+  #site-navigation{
+    position: fixed;
+    top: 0;
+    
+
+  }
+
+  #masthead{
+    position: fixed;
+    width:100vw;
+    z-index: 100;
+  }
+
+  .menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .menu ul{
+    list-style-type:none ;
+    margin-top: 63px;
+  }
+
+  .menu li{
+    font: 22px bubblegum;
+    float: left;
+    margin-right: 50px;
+    
+  }
+
+  .menu a{
+    color: white;
+  }
+
+  .menu a:hover{
+    color: #ffb300;
+    animation: bounce 0.5s infinite;
+  }
+
+  
+/* Positioning homepage figure */
+ figure .wp-image-23{   
+  position: relative;
+   left: 200%;
+   width: 350px !important ;
+   height: auto !important;
+   top: 300px !important;
+ }
+
+ /* Home page block quote */
+
+ .wp-block-quote p{
+   color: #ffffff;
+   font: 30px bubblegum;
+   z-index: 20;
+   position: relative;
+   left: 100px;
+   top: 0px;
+ }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: auto;
+  }
+  #site-navigation{
+    position: fixed;
+    top: 0;
+    
+
+  }
+
+  #masthead{
+    position: fixed;
+    width:100vw;
+    z-index: 100;
+  }
+
+  .menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+
+  .menu li{
+    font: 22px bubblegum;
+    float: left;
+    margin-right: 50px;
+    
+  }
+
+  .menu a{
+    color: white;
+  }
+
+  .menu a:hover{
+    color: #ffb300;
+    animation: bounce 1s infinite;
+  }
+
+  /* @keyframes bounce {
+    0%,  
+    100% {
+       -webkit-transform: translateY(0);
+    } 
+    50% {
+        -webkit-transform: translateY(0px);
+    }
+} */
+ .entry-content{
+   background-color: #a05f73;
+   height: 100vh;
+   margin-top: -100px;
+ }
+  
+ 
+
+ blockquote{
+   border: none;
+ }
+
+ .elementor-widget-container h2 {
+  color: #332a2f !important;
+  font: 16px "gadugi" !important;
+}
+
+.elementor-widget-container h1{
+  font:30px bubblegum !important;
+  margin-bottom: 100px !important;
+  color: #332a2f !important;
+
+}
+
+/**contact page*/
+.wpcf7-form{
+  padding-top: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wpcf7-form p{
+  width: 35%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  position: relative;
+  margin-top: -20px !important;
+  
+}
+.wpcf7-form label {
+  color: white;
+  
+}
+
+.wpcf7-form input, textarea{
+background-color: #9fd3ae;
+border-radius: 20px;
+}
+
+.wpcf7-form  textarea, label{
+  margin-top: 0px;
+  height: 100px !important;
+}
+
+.wpcf7-submit {
+  padding: 10px;
+  margin-top: 60px;
+  border-radius: 20px !important;
+  margin-left: 0;
+  color: #ffb300;
+  background-color: #075d6b !important;
+  width: 100%;
+  border: none;
+  font: 20px gadugi;
+}
+
+.wpcf7-form h1{
+  text-align: center;
+  color: #332a2f;
+  font: 30px bubblegum;
+  margin-top: 50px;
+  margin-bottom: 80px;
+
+}
+
+/**ABOUT us page*/
+
+
+#post-13 h2{
+  padding-top: 300px;
+  font: 30px bubblegum;
+  text-align: center;
+  color: #332a2f;
+}
+
+#post-13 p{
+  font: 20px gadugi;
+  color: #332a2f;
+  width: 70%;
+  position: relative;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, 5%);
+  font-weight: bold;
+  line-height: 2;
+  
+} 
+
+body{
+	background-color: #9fd3ae;
+}
+span{
+  width:10%;
+}
+
+.wp-block-media-text__media{
+  width: 300px;
+  position: absolute;
+  left: 20%;
+  padding-bottom: 200px;
+  padding-top: 60px;
+}
+
+.wp-block-media-text__content{
+  position: relative;
+  right: 20%;
+}
+
+ #colophon{
+  background-color: #075d6b;
+  width: 100vw;
+  height: 100px;
+  position: relative;
+  bottom:0;
+   
+   
+ } 
+  
+  /* The navbar
+  .topnav {
+    overflow: hidden;
+  }
+  
+   Navbar links 
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30% 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } 
+    overflow: hidden;
+  }
+  
+   Navbar links 
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30% 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } */
