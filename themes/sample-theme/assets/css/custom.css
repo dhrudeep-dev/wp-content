@@ -1,7 +1,10 @@
+/* linking external fonts */
 @font-face{
   font-family: gadugi;
   src: url(fonts/gadugi.ttf);
 }
+
+/* linking external fonts */
 
 @font-face{
   font-family: bubblegum;
@@ -224,6 +227,7 @@ border-radius: 20px;
   font: 20px gadugi;
 }
 
+/* Font for form */
 .wpcf7-form h1{
   text-align: center;
   color: #332a2f;
