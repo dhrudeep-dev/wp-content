@@ -199,6 +199,7 @@ nav {
   
 }
 
+/* setting bg colour for input text-area */
 .wpcf7-form input, textarea{
 background-color: #9fd3ae;
 border-radius: 20px;
