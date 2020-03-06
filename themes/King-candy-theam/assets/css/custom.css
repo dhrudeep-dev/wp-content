@@ -1,0 +1,758 @@
+@font-face{
+  font-family: gadugi;
+  src: url(fonts/gadugi.ttf);
+}
+
+@font-face{
+  font-family: bubblegum;
+  src: url(fonts/Bubblegum.ttf);
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  
+}
+
+nav {
+  width: 100%;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("./images/header.png");
+    background-size: 100% 80% !important;
+    margin-top: -36px !important;
+    min-height: 250px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }
+
+  #logo{
+    position: absolute;
+    top:30px;
+    left: 50px;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: auto;
+  }
+  #site-navigation{
+    position: fixed;
+    top: 0;
+  }
+
+  #masthead{
+    position: fixed;
+    width:100vw;
+    z-index: 100;
+  }
+
+  .menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 5% !important;
+  }
+  .menu ul{
+    list-style-type:none ;
+    margin-top: 63px;
+  }
+
+  .menu li{
+    font: 22px bubblegum;
+    float: left;
+    margin-right: 50px;
+    
+  }
+
+  .menu a{
+    color: white;
+  }
+
+  .menu a:hover{
+    color: #ffb300;
+    animation: bounce 0.5s infinite;
+  }
+
+  
+
+.wp-block-media-text__media{
+  position: relative !important;
+}
+
+.wp-block-media-text__content p{
+  position: relative !important;
+  bottom: 10% !important;
+  left: 5% !important;
+}
+ figure .wp-image-23{   
+  position: relative;
+   left: 200%;
+   width: 350px !important ;
+   height: auto !important;
+   top: 300px !important;
+ }
+
+ .wp-block-quote p{
+   color: #ffffff;
+   font: 30px bubblegum;
+   z-index: 20;
+   position: relative;
+   left: 100px;
+   top: 0px;
+ }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: auto;
+  }
+  #site-navigation{
+    position: fixed;
+    top: 0;
+    
+
+  }
+
+  #masthead{
+    position: fixed;
+    width:100vw;
+    z-index: 100;
+  }
+
+  .menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10% !important;
+  }
+  
+
+  .menu li{
+    font: 22px bubblegum;
+    float: left;
+    margin-right: 50px;
+    
+  }
+
+  .menu a{
+    color: white;
+  }
+
+  .menu a:hover{
+    color: #ffb300;
+    animation: bounce 1s infinite;
+  }
+
+  /* @keyframes bounce {
+    0%,  
+    100% {
+       -webkit-transform: translateY(0);
+    } 
+    50% {
+        -webkit-transform: translateY(0px);
+    }
+} */
+ .entry-content{
+   background-color: #a05f73;
+   height: 100vh;
+   margin-top: -175px;
+ }
+
+ blockquote{
+   border: none;
+ }
+
+ .elementor-widget-container h2 {
+  color: #332a2f !important;
+  font: 16px "gadugi" !important;
+}
+
+.elementor-widget-container h1{
+  font:30px bubblegum !important;
+  margin-bottom: 100px !important;
+  color: #332a2f !important;
+
+}
+
+/**contact page*/
+.wpcf7-form{
+  padding-top: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wpcf7-form p{
+  width: 35%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  position: relative;
+  margin-top: -20px !important;
+  
+}
+.wpcf7-form label {
+  color: white;
+  
+}
+
+.wpcf7-form input, textarea{
+background-color: #9fd3ae;
+border-radius: 20px;
+}
+
+.wpcf7-form  textarea, label{
+  margin-top: 0px;
+  height: 100px !important;
+}
+
+.wpcf7-submit {
+  padding: 10px;
+  margin-top: 60px;
+  border-radius: 20px !important;
+  margin-left: 0;
+  color: #ffb300;
+  background-color: #075d6b !important;
+  width: 100%;
+  border: none;
+  font: 20px gadugi;
+}
+
+.wpcf7-form h1{
+  text-align: center;
+  color: #332a2f;
+  font: 30px bubblegum;
+  margin-top: 50px;
+  margin-bottom: 80px;
+
+}
+
+/**ABOUT us page*/
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  min-height: 500px! important;
+  margin-bottom: 10px;
+}
+ul.products li.product a.button {
+  position: absolute! important;
+  bottom: 25%;
+}
+
+.woocommerce-loop-product__title{
+  position: absolute! important;
+  bottom: 35%;
+}
+
+.woocommerce-Price-amount{
+  position: absolute! important;
+  bottom: 55%;
+}
+#post-13 h2{
+  font: 30px bubblegum;
+  text-align: center;
+  color: #332a2f;
+  min-height: 100px !important;
+
+}
+
+.woocommerce-MyAccount-navigation,.woocommerce-MyAccount-content{
+  position: relative;
+  top: 40px;
+
+}
+#post-13 p{
+  font-family: bubblegum !important;
+  font-size: 25px !important;
+  color: white;
+  width: 70%;
+  position: relative;
+  left: 60% !important;
+  bottom: 10% !important;
+  transform: translate(-50%, 5%);
+  font-weight: bold;
+  line-height: 2;
+  
+} 
+
+body{
+	background-color: #A05F73;
+}
+span{
+  width:10%;
+}
+
+#content{
+  padding-top: 16% !important;
+}
+
+.wp-block-media-text__media{
+  width: 300px;
+  position: absolute;
+  left: 20%;
+  padding-bottom: 200px;
+  padding-top: 60px;
+}
+
+.wp-block-media-text__content{
+  position: relative;
+  right: 20%;
+  width: 735px;
+}
+
+ #colophon{
+  background-color: #075d6b;
+  width: 100vw;
+  height: 30px;
+  position: fixed;
+  bottom:0;
+   
+ }  
+
+ #footerText{
+   color: white;
+ }
+  
+  /* The navbar
+  .topnav {
+    overflow: hidden;
+  }
+  
+   Navbar links 
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30% 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } 
+    overflow: hidden;
+  }
+  
+   Navbar links 
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30% 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+
+  /* woocommerce styling */
+ /* cart style */
+  .cart_totals h2{
+    color: white;
+    font-family: 'bubblegum';
+  }
+  .products{
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+
+  .attachment-woocommerce_thumbnail{
+    width: 80% !important;
+    border-radius: 10px;
+  }
+
+  .woocommerce-loop-product__title{
+    font-size :30px !important;
+    color: white;
+    font-family: 'bubblegum' !important;
+
+  }
+
+  .price{
+    font-size: 22px !important;
+    color: white !important;
+  }
+
+
+  .add_to_cart_button{
+    background-color: orange !important;
+  }
+  
+
+  /* coupon styling */
+
+  .woocommerce-form-coupon-toggle{
+    display: none;
+  }
+
+  .entry-title{
+    display: none;
+  }
+
+  .added_to_cart{
+    display: none !important  ;
+  }
+
+  #customer_details{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+  }
+
+  #order_review{
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+  }
+
+  #order_review_heading{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'bubblegum';
+  }
+
+  .wpcf7-form textarea, label{
+    height: 35px !important;
+  }
+
+  .input-text{
+    border-radius: 10px;
+  }
+
+  .select2-selection--single{
+    width: 100%;
+  }
+
+  .checkout{
+    color: white;
+    padding-bottom: 5% !important;
+  }
+
+label{
+  color: white !important;
+}
+
+.shop_table th{
+  background-color: orange !important;
+  color: black !important;
+}
+
+.shop_table tr{
+  background-color: orange !important;
+  color: black !important;
+
+}
+
+.cart_item{
+  background-color: orange !important;
+  color: black !important;
+
+}
+
+.woocommerce-Price-amount amount{
+  color: black !important;
+}
+
+#payment{
+  background: #225D6B !important;
+}
+
+#place_order{
+  background: orange;
+}
+
+/* cart changes */
+.status-publish {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 6%;
+}
+
+.cart-empty{
+  border-radius: 10px;
+}
+
+.wc-backward{
+  background-color: orange !important;
+  color: white !important;
+}
+.woocommerce-cart-form,.cart-collaterals{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
+
+/* ws-form custom styling */
+.wsf-form {
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.wsf-form label{
+  font-size: 20px;
+}
+
+.wsf-form input{
+}
+
+.wsf-form .cell{
+  padding-bottom: 5%;
+}
+
+.cell input{
+  border-radius: 10px;
+  background-color: #9FD3AE;
+}
+
+#wsf-1-field-wrapper-7{
+  padding-top: 10%;
+}
+
+#wsf-1-field-7{
+  border-radius: 10px;
+  width: 15%;
+  background-color: orange;
+}
+
+.help-text{
+  display: none;
+}
+
+.shop_table tr,th{
+  background-color: #9FD3AE !important;
+  color: black !important;
+}
+
+.shop_table th{
+  background-color: #9FD3AE !important;
+  color: black !important;
+}
+
+.shop_table button{
+  background-color: #9FD3AE !important;
+}
+
+.coupon{
+  display: none;
+}
+
+.checkout-button{
+  background-color: #ffb300 !important;
+}
+.woocommerce-billing-fields h3{
+  font-family: 'bubblegum';
+
+}
+.woocommerce-additional-fields h3{
+  font-family: 'bubblegum';
+
+}
+
+.actions .button{
+  background-color: #ffb300 !important;
+
+}
+
+/* checkout page styling */
+.order_details{
+  border: 1px solid grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: black !important;
+  background-color: #9FD3AE;
+}
+
+.woocommerce-thankyou-order-received{
+  color: white;
+  font-size: 18px;
+  font-family: 'bubblegum';
+}
+
+.woocommerce-order-details__title{
+  color: white;
+  font-family: 'bubblegum';
+}
+
+.woocommerce-column__title{
+  color: white;
+  font-family: 'bubblegum';
+}
+
+.woocommerce-customer-details address{
+  background-color: #9FD3AE;
+  font-size: 18px;
+  color: black !important;
+}
+
+.woocommerce-customer-details p{
+  color: black !important;
+
+}
+.woocommerce-order{
+  padding-top: 5%;
+}
+.woocommerce-order p{
+  color: white;
+}
+
+/* account page */ 
+.woocommerce-MyAccount-content{
+  background-color: #9FD3AE;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.woocommerce-MyAccount-navigation{
+  background-color: #ffb300 !important;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+/* input styling */
+.woocommerce-Input--password {
+  width: 300px !important;
+}
+
+/* form style */
+.woocommerce form .show-password-input, .woocommerce-page form .show-password-input{
+  right: -12.3em !important;
+}
+
+/* nav style*/
+.woocommerce-MyAccount-navigation ul{
+  list-style-type: none;
+  font-size: 20px;
+  color: black;
+}
+/* woocommerce-MyAccount-content styling ul style*/
+.woocommerce-MyAccount-navigation ul a{
+  list-style-type: none;
+  font-size: 20px;
+  color: black;
+}
+
+/* woocommerce-MyAccount-content styling */
+.woocommerce-MyAccount-content .woocommerce-button{
+  background-color: orange !important;
+}
+
+/* message style */
+.woocommerce-Message .button{
+  background-color: orange !important;
+}
+
+/* edit account button */
+.edit-account .button{
+  background-color: orange !important;
+}
+
+/* edit account label */
+.edit-account label{
+  color: black !important;
+  font-size: 15px;
+}
+
+/* login page */
+.login{
+  background-color:#9FD3AE ;
+  color: black !important;
+}
+
+/* lable style */
+.login label{
+  color: black !important;
+  font-size: 18px;
+}
+
+/* changing width of input */
+.password-input input{
+  width: 325px !important;
+}
+
+/* woocommerce h2 8*/
+.woocommerce h2{
+  color: white !important;
+  font-family: 'bubblegum';
+
+}
+/* login */
+.woocommerce-form-login__submit{
+  background-color: orange !important;
+}
+
+/* description section */
+#comments,.nav-previous{
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+
+}
+
+/* tab description comment */
+#tab-description{
+  height: 200px !important;
+  padding: 10px;
+  background-color: #9FD3AE;
+}
+
+/* additional info comment */
+#tab-additional_information{
+  height: 200px !important;
+
+}
+
+/* button comment */
+.single_add_to_cart_button{
+  background-color: orange !important;
+}
+
+/* desc */
+.related .woocommerce ul.products li.product{
+  min-height: 300px !important;
+}
+
+/* about page custimization */
+.aboutId{
+  margin-top: 30px !important;
+  font-family: bubblegum !important;
+  color: white;
+}
+
+.aboutDes{
+  font-family: gadugi !important;
+
+}
+
+.woocommerce-ordering{
+  display: none;
+}
+
+.products{
+  padding-top: 5% !important;
+}
+
+.woocommerce-result-count{
+  display: none;
+}
