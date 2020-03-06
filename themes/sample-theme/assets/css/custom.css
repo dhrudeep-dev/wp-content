@@ -166,7 +166,7 @@ nav {
  }
   
  
-
+/* no border on BQ  */
  blockquote{
    border: none;
  }
@@ -227,8 +227,6 @@ border-radius: 20px;
 }
 
 /**ABOUT us page*/
-
-
 #post-13 h2{
   padding-top: 300px;
   font: 30px bubblegum;
