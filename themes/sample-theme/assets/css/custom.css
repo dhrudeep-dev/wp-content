@@ -205,10 +205,12 @@ background-color: #9fd3ae;
 border-radius: 20px;
 }
 
+/* aligning labels */
 .wpcf7-form  textarea, label{
   margin-top: 0px;
   height: 100px !important;
 }
+
 
 .wpcf7-submit {
   padding: 10px;
