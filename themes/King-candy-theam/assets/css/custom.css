@@ -63,6 +63,7 @@ nav {
     text-align: center;
     justify-content: center;
     width: 100%;
+    padding-left: 5% !important;
   }
   .menu ul{
     list-style-type:none ;
@@ -138,6 +139,7 @@ nav {
     text-align: center;
     justify-content: center;
     width: 100%;
+    padding-left: 10% !important;
   }
   
 
@@ -247,7 +249,17 @@ border-radius: 20px;
 }
 ul.products li.product a.button {
   position: absolute! important;
-  bottom: 25px;
+  bottom: 25%;
+}
+
+.woocommerce-loop-product__title{
+  position: absolute! important;
+  bottom: 35%;
+}
+
+.woocommerce-Price-amount{
+  position: absolute! important;
+  bottom: 55%;
 }
 #post-13 h2{
   font: 30px bubblegum;
@@ -263,8 +275,8 @@ ul.products li.product a.button {
 
 }
 #post-13 p{
-  font-family: 'Bubblegum Sans' !important;
-  font-size: 30px !important;
+  font-family: bubblegum !important;
+  font-size: 25px !important;
   color: white;
   width: 70%;
   position: relative;
@@ -355,7 +367,7 @@ span{
  /* cart style */
   .cart_totals h2{
     color: white;
-    font-family: 'Bubblegum Sans';
+    font-family: 'bubblegum';
   }
   .products{
     padding-right: 5% !important;
@@ -370,7 +382,7 @@ span{
   .woocommerce-loop-product__title{
     font-size :30px !important;
     color: white;
-    font-family: 'Bubblegum Sans' !important;
+    font-family: 'bubblegum' !important;
 
   }
 
@@ -413,7 +425,7 @@ span{
   #order_review_heading{
     padding-left: 10%;
     padding-right: 10%;
-    font-family: 'Bubblegum Sans';
+    font-family: 'bubblegum';
   }
 
   .wpcf7-form textarea, label{
@@ -430,6 +442,7 @@ span{
 
   .checkout{
     color: white;
+    padding-bottom: 5% !important;
   }
 
 label{
@@ -458,7 +471,7 @@ label{
 }
 
 #payment{
-  background: black !important;
+  background: #225D6B !important;
 }
 
 #place_order{
@@ -546,11 +559,11 @@ label{
   background-color: #ffb300 !important;
 }
 .woocommerce-billing-fields h3{
-  font-family: 'Bubblegum Sans';
+  font-family: 'bubblegum';
 
 }
 .woocommerce-additional-fields h3{
-  font-family: 'Bubblegum Sans';
+  font-family: 'bubblegum';
 
 }
 
@@ -572,17 +585,17 @@ label{
 .woocommerce-thankyou-order-received{
   color: white;
   font-size: 18px;
-  font-family: 'Bubblegum Sans';
+  font-family: 'bubblegum';
 }
 
 .woocommerce-order-details__title{
   color: white;
-  font-family: 'Bubblegum Sans';
+  font-family: 'bubblegum';
 }
 
 .woocommerce-column__title{
   color: white;
-  font-family: 'Bubblegum Sans';
+  font-family: 'bubblegum';
 }
 
 .woocommerce-customer-details address{
@@ -680,7 +693,7 @@ label{
 /* woocommerce h2 8*/
 .woocommerce h2{
   color: white !important;
-  font-family: 'Bubblegum Sans';
+  font-family: 'bubblegum';
 
 }
 /* login */
@@ -718,4 +731,28 @@ label{
 /* desc */
 .related .woocommerce ul.products li.product{
   min-height: 300px !important;
+}
+
+/* about page custimization */
+.aboutId{
+  margin-top: 30px !important;
+  font-family: bubblegum !important;
+  color: white;
+}
+
+.aboutDes{
+  font-family: gadugi !important;
+
+}
+
+.woocommerce-ordering{
+  display: none;
+}
+
+.products{
+  padding-top: 5% !important;
+}
+
+.woocommerce-result-count{
+  display: none;
 }
