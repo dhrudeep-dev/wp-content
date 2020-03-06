@@ -113,6 +113,8 @@ nav {
     top: 5%;
     width: auto;
   }
+
+  
   #site-navigation{
     position: fixed;
     top: 0;
@@ -159,6 +161,8 @@ nav {
         -webkit-transform: translateY(0px);
     }
 } */
+
+/* entry content bg colour */
  .entry-content{
    background-color: #a05f73;
    height: 100vh;
