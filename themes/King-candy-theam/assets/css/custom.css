@@ -200,7 +200,6 @@ nav {
 .wpcf7-form input, textarea{
 background-color: #9fd3ae;
 border-radius: 20px;
-border: none;
 }
 
 .wpcf7-form  textarea, label{
@@ -313,42 +312,7 @@ span{
    color: white;
  }
   
-  /* The navbar
-  .topnav {
-    overflow: hidden;
-  }
   
-   Navbar links 
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 30% 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  } 
-    overflow: hidden;
-  }
-  
-   Navbar links 
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 30% 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  } */
 
   /* woocommerce styling */
  /* cart style */
