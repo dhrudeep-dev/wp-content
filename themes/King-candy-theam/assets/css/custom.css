@@ -175,17 +175,6 @@ nav {
    border: none;
  }
 
- .elementor-widget-container h2 {
-  color: #332a2f !important;
-  font: 16px "gadugi" !important;
-}
-
-.elementor-widget-container h1{
-  font:30px bubblegum !important;
-  margin-bottom: 100px !important;
-  color: #332a2f !important;
-
-}
 
 /**contact page*/
 .wpcf7-form{
