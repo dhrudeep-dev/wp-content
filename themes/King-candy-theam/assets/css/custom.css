@@ -633,7 +633,7 @@ label{
 
 /* lable style */
 .login label{
-  color: black !important;
+  color: #000 !important;
   font-size: 18px;
 }
 
