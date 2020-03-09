@@ -628,12 +628,12 @@ label{
 /* login page */
 .login{
   background-color:#9FD3AE ;
-  color: #000 !important;
+  color: #075D6B !important;
 }
 
 /* lable style */
 .login label{
-  color: #000 !important;
+  color: #075D6B !important;
   font-size: 18px;
 }
 
@@ -646,6 +646,7 @@ label{
 .woocommerce h2{
   color: white !important;
   font-family: 'bubblegum';
+  text-align: center;
 
 }
 /* login */
