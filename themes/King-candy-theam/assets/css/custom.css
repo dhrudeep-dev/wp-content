@@ -200,6 +200,7 @@ nav {
 .wpcf7-form input, textarea{
 background-color: #9fd3ae;
 border-radius: 20px;
+border: none;
 }
 
 .wpcf7-form  textarea, label{
