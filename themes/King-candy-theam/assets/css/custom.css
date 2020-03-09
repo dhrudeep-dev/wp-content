@@ -172,7 +172,7 @@ nav {
  }
 
  blockquote{
-   border: none;
+   border: 1px solid white;
  }
 
  .elementor-widget-container h2 {
