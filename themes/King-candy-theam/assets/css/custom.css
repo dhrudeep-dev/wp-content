@@ -99,7 +99,7 @@ nav {
  figure .wp-image-23{   
   position: relative;
    left: 200%;
-   width: 340px !important ;
+   width: 350px !important ;
    height: auto !important;
    top: 300px !important;
  }
@@ -123,8 +123,6 @@ nav {
   #site-navigation{
     position: fixed;
     top: 0;
-    
-
   }
 
   #masthead{
