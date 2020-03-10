@@ -33,6 +33,7 @@ nav {
     position: relative;
   }
 
+  /* this is logo */
   #logo{
     position: absolute;
     top:30px;
